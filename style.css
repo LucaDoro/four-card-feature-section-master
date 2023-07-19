@@ -178,13 +178,11 @@ body {
     font-size: var(--fs-300);
     font-weight: var(--fw-200);
     text-align: center;
-  }
-
-  .product__title > p:last-of-type {
+    min-width: 200px;
     margin-bottom: 1.5rem;
   }
-}
 
+  
 @media (width >= 60rem) {
   .product__grid {
     display: grid;
